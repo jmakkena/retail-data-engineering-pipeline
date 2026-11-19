@@ -7,6 +7,7 @@ An end-to-end data engineering portfolio project that demonstrates incremental d
 The pipeline processes a synthetic retail dataset containing customers, products, inventory, orders, and order items.
 
 ## Architecture
+![End-to-End Retail Data Engineering Architecture](assets/architecture_diagram.png)
 
 ```text
                   PostgreSQL 18
