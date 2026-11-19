@@ -220,3 +220,39 @@ This executes the local extraction scripts, uploads new source files, and trigge
 This project demonstrates practical data engineering concepts, including incremental loading, checkpoint management, data transformation, job orchestration, data-quality testing, and analytical modeling.
 
 It was built as a hands-on portfolio project to demonstrate end-to-end data pipeline development.
+
+
+---
+
+## Dashboard & Pipeline Screenshots
+
+### Executive Dashboard Overview
+
+Interactive retail analytics dashboard featuring gross order value,
+delivered order value, total orders, average order value, unique
+customers, and daily sales trends.
+
+![Executive Dashboard Overview](assets/dashboard_overview.png)
+
+### Databricks Workflow Orchestration
+
+Three dependent serverless tasks execute the Bronze/Silver
+processing, Gold revenue analytics, and automated validation.
+
+![Databricks Pipeline Execution](assets/pipeline_success.png)
+
+### Data Quality & Reconciliation
+
+Validation checks confirm data integrity, referential consistency,
+and reconciliation between PostgreSQL source snapshots and
+Databricks Silver/Gold tables.
+
+![Data Quality Checks](assets/data_quality_checks.png)
+
+### Sales & Customer Analytics
+
+Business-facing visualizations show fulfillment trends,
+order status distribution, delivery rate, daily customer activity,
+and average order value.
+
+![Sales and Customer Analytics](assets/sales_analytics.png)
