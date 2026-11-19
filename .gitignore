@@ -1,0 +1,41 @@
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.databrickscfg
+.pgpass
+pgpass.conf
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated pipeline data
+data/
+*.csv
+*.parquet
+
+# Local state and checkpoints
+checkpoint.json
+checkpoint.tmp
+*.tmp
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
